@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blocked</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            width: 100%;
-            height: 100vh;
-            box-sizing: border-box;
-            background-image: url(stop.png);
-            background-position-x: center;
-            background-size: 35%;
-            background-repeat: no-repeat;
-        }
-    </style>
 </head>
 <body>
-   <div>
-    Wait...,This Website Is blocked
-   </div>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        
+            body {
+                width: 100%;
+                height: 100vh;
+                box-sizing: border-box;
+                background-image: url(blocked.png);
+                background-size: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 10vh;
+                color: rgb(255, 255, 255);
+                font-size: 56px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        
+            img {
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+        </style>
 </body>
 </html>

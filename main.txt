@@ -1,0 +1,12 @@
+<div class="fir-left inline-block">
+        <button>
+            <h3>Clever</h3>
+        </button>
+        <img src="Poe-clever.png" class="po-top" alt="poe-clever">
+           </div>
+           <div class="last-right">
+            <img src="portal.png" alt="clever-portal">
+            <img src="portal.png" alt="clever-portal">
+            <img src="portal.png" alt="clever-portal">
+            <img src="portal.png" alt="clever-portal">
+           </div>
